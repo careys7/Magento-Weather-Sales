@@ -1,0 +1,38 @@
+<config>
+    <tabs>
+        <tbtall translate="label">
+            <label>Magex Extensions</label>
+            <sort_order>100</sort_order>
+        </tbtall>
+    </tabs>
+    <sections>
+        <magex_weather translate="label">
+            <label>Weather</label>
+            <tab>tbtall</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>Settings</label>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <fields>         
+                        <use_celcius>
+                            <label>Celcius Mode</label>
+                            <comment><![CDATA[Enable if you want to setup rules using celcius]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_enabledisable</source_model>
+                            <sort_order>35</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                        </use_celcius>
+                    </fields>
+                </settings>
+            </groups>
+        </magex_weather>
+    </sections>
+</config>
