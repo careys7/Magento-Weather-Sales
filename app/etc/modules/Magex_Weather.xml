@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
    <config>
       <modules>
-        <Magex_Weather>
+        <Jcarey_Weather>
             <active>true</active>
             <codePool>local</codePool>
-         </Magex_Weather>
+         </Jcarey_Weather>
        </modules>
     </config>
